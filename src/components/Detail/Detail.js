@@ -42,7 +42,7 @@ const Detail = (props) => {
                         <h2>ID: {id}</h2>
                     </Typography>
                     <Typography variant="h5" component="h2">
-                        <p>Title: {title}</p>
+                        <p>Name: {title}</p>
                     </Typography>
                     <Link style={{ textDecoration: 'none' }} to={`/comments/${id}`}>
                         <Button variant="contained" color="primary">
