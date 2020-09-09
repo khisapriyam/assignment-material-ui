@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -19,7 +18,7 @@ function App() {
           <Route path="/post">
             <Post></Post>
           </Route>
-          <Route path="/comment/:commentId">
+          <Route path="/comments/:commentId">
             <CommentDetail></CommentDetail>
           </Route>
           <Route exact path="/">
@@ -30,9 +29,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      
-      
-      
+     
     </div>
   );
 }
