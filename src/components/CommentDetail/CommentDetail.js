@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-
 const CommentDetail = () => {
     const {commentId} = useParams();
     const [comment, setComment] = useState({});
@@ -28,10 +27,8 @@ const CommentDetail = () => {
                 <h3>Name: {comment.name}</h3>
                 <p>Email: {comment.email}</p>
                 <p>Comments: {comment.body}</p>
-                <p>Post ID: {comment.postId}</p>
-                
+                <p>Post ID: {comment.postId}</p>  
             </div>
-           
         </div>
     );
 };

@@ -4,7 +4,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Post from './components/Post/Post';
 import NoMatch from './components/NoMatch/NoMatch';
